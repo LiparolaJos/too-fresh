@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | NOMARU Essential Oils</title>
+    <meta name="description" content="Learn about NOMARU's mission, sustainable practices, and our artisanal distillation process in South Africa.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="glass-panel">
+        <a href="index.html" class="logo">NOMARU</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html" class="active">About</a>
+        </div>
+        <button class="mobile-menu-btn">
+            <i data-lucide="menu"></i>
+        </button>
+    </nav>
+
+    <section class="section-padding" style="margin-top: 100px;">
+        <div class="glass-panel fade-up" style="padding: 60px; margin-bottom: 50px; text-align: center;">
+            <h1 style="font-size: 3.5rem; margin-bottom: 24px; color: hsl(var(--accent));">About NOMARU</h1>
+            <p style="max-width: 850px; margin: 0 auto 40px; font-size: 1.15rem; opacity: 0.9; line-height: 1.8;">
+                NOMARU is a small artisanal essential oil manufacturer based in South Africa. We believe in the power of nature — sourcing botanicals from local farms and using traditional extraction methods to create oils of exceptional purity. Every product reflects our commitment to sustainability, quality, and the rich botanical heritage of South Africa.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; margin-top: 60px;">
+                <div>
+                    <h3 style="color: hsl(var(--accent)); margin-bottom: 12px;">Natural Extraction</h3>
+                    <p style="font-size: 0.95rem; opacity: 0.7;">We use steam distillation and cold-pressing to preserve the therapeutic properties of every plant.</p>
+                </div>
+                <div>
+                    <h3 style="color: hsl(var(--accent)); margin-bottom: 12px;">Sustainable</h3>
+                    <p style="font-size: 0.95rem; opacity: 0.7;">Our farming and production processes are designed to minimize environmental impact.</p>
+                </div>
+                <div>
+                    <h3 style="color: hsl(var(--accent)); margin-bottom: 12px;">Local Sourcing</h3>
+                    <p style="font-size: 0.95rem; opacity: 0.7;">We source our botanicals from local South African farmers who share our values.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fade-up" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-bottom: 100px;">
+            <img src="https://picsum.photos/seed/process/800/1000" alt="Our Process" style="width: 100%; border-radius: 24px;" referrerPolicy="no-referrer">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 24px;">Our Process</h2>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: hsl(var(--primary)); margin-bottom: 8px; font-size: 1.25rem;">1. Plant Sourcing</h4>
+                    <p style="opacity: 0.8;">We hand-select the finest botanicals at their peak potency from organic farms across South Africa.</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: hsl(var(--primary)); margin-bottom: 8px; font-size: 1.25rem;">2. Distillation</h4>
+                    <p style="opacity: 0.8;">Our small-batch distillation process allows us to monitor quality at every second, ensuring purity.</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: hsl(var(--primary)); margin-bottom: 8px; font-size: 1.25rem;">3. Quality Control</h4>
+                    <p style="opacity: 0.8;">Every batch is tested for its chemical profile and therapeutic standard before being bottled.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-panel fade-up" style="padding: 80px 40px; text-align: center; background: linear-gradient(rgba(47, 128, 237, 0.1), rgba(152, 48, 60, 0.1));">
+            <h2 style="font-size: 2.5rem; margin-bottom: 24px;">Our Mission</h2>
+            <p style="max-width: 800px; margin: 0 auto; font-style: italic; font-size: 1.4rem; opacity: 0.9; font-family: var(--font-display);">
+                "To provide the world with the purest South African essential oils, fostering wellness and sustainability through every drop we produce."
+            </p>
+        </div>
+
+        <div id="contact" class="fade-up" style="margin-top: 100px; text-align: center;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 40px;">Get in Touch</h2>
+            <div class="glass-panel" style="display: inline-block; padding: 50px; max-width: 600px; width: 100%;">
+                <div style="margin-bottom: 30px;">
+                    <i data-lucide="mail" style="color: hsl(var(--primary)); margin-bottom: 12px; font-size: 2rem;"></i>
+                    <p style="font-size: 1.1rem;">contact@nomaru.co.za</p>
+                </div>
+                <div>
+                    <i data-lucide="map-pin" style="color: hsl(var(--primary)); margin-bottom: 12px; font-size: 2rem;"></i>
+                    <p style="font-size: 1.1rem;">Western Cape, South Africa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="#"><i data-lucide="facebook"></i></a>
+            <a href="#"><i data-lucide="twitter"></i></a>
+        </div>
+        <p>contact@nomaru.co.za</p>
+        <p>&copy; 2026 NOMARU Essential Oils. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <style>
+        @media (max-width: 768px) {
+            section > div:nth-child(2) {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</body>
+</html>
